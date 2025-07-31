@@ -46,3 +46,11 @@ function play() {
         }
     }
 }
+
+
+gsap.from(".container", {
+    opacity: 0,              
+    duration: 3.5,
+    ease: "power1.out",
+    delay: 0.8,
+})
